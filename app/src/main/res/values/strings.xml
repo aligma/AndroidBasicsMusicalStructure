@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android Basics Musical Structure</string>
+
+    <string name="search">Podcast Search</string>
+    <string name="search_box">Type a podcast name or author</string>
+    <string name="search_notes">This activity might normally display previously selected search results, and the EditText might have a incremental or predictive search feature so the user can see podcast names and authors suggested to them as they type.</string>
+
+    <string name="episode">Episode</string>
+    <string name="episode_title">Android Podcast 1 - Episode 1</string>
+    <string name="episode_subtitle">In Episode 1 we hear about the magic of multi screen apps</string>
+    <string name="episode_notes">This allows the user to play a single episode and links to purchase a digital download.</string>
+
+    <string name="payment">Payment</string>
+    <string name="payment_title">Purchase Digital Download</string>
+    <string name="payment_subtitle">You are purchasing a Digital download of Android Podcast 1 - Episode 1</string>
+    <string name="payment_notes">Detailed usage instructions are available on https://stripe.com/docs/mobile/android.</string>
+
+    <string name="results">Search results</string>
+    <string name="results_title">You searched for \'Android\'.</string>
+    <string name="results_subtitle">We think you might be interested in these podcasts:</string>
+    <string name="results_notes">This is a list of podcasts matching the user\'s search terms. In the real implementation images might be shown alongside the names, and descriptions underneath.</string>
+
+    <string name="series">Series</string>
+    <string name="series_title">Android Podcast 1</string>
+    <string name="series_subtitle">Amazing Android information</string>
+    <string name="series_notes">This is a list of the episodes in a given podcast.</string>
+</resources>

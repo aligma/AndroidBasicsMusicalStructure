@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.androidbasicsmusicalstructure.PaymentActivity">
+
+    <LinearLayout style="@style/StandardLayoutWithMargin">
+
+        <LinearLayout style="@style/ContentLayout">
+
+            <TextView
+                style="@style/ContentTitle"
+                android:text="@string/payment_title" />
+
+            <TextView
+                style="@style/ContentSubtitle"
+                android:text="@string/payment_subtitle" />
+
+            <com.stripe.android.view.CardInputWidget
+                android:id="@+id/card_input_widget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/pay_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay now" />
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/NotesLayout">
+
+            <TextView
+                style="@style/NotesTextView"
+                android:text="@string/payment_notes" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

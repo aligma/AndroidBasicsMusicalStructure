@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.androidbasicsmusicalstructure.EpisodeActivity">
+
+    <LinearLayout style="@style/StandardLayout">
+
+        <LinearLayout
+            style="@style/ContentLayout"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                style="@style/ContentTitle"
+                android:text="@string/episode_title" />
+
+            <TextView
+                style="@style/ContentSubtitle"
+                android:text="@string/episode_subtitle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:background="@color/colorPrimary"
+                android:padding="16dp"
+                android:text="Audio Player area with image, play, pause and stop buttons."
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Purchase digital download" />
+
+        <LinearLayout style="@style/NotesLayout">
+
+            <TextView
+                style="@style/NotesTextView"
+                android:text="@string/episode_notes" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

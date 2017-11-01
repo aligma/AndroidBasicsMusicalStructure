@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.androidbasicsmusicalstructure.ResultsActivity">
+
+    <LinearLayout style="@style/StandardLayout">
+
+        <LinearLayout
+            style="@style/ContentLayout"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                style="@style/ContentTitle"
+                android:text="@string/results_title" />
+
+            <TextView
+                style="@style/ContentSubtitle"
+                android:text="@string/results_subtitle" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/podcast1"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="Android Podcast 1" />
+
+        <TextView
+            android:id="@+id/podcast2"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimary"
+            android:text="Android Podcast 2" />
+
+        <TextView
+            android:id="@+id/podcast3"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="Android Podcast 3" />
+
+        <LinearLayout style="@style/NotesLayout">
+
+            <TextView
+                style="@style/NotesTextView"
+                android:text="@string/results_notes" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

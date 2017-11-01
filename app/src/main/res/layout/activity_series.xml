@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.androidbasicsmusicalstructure.SeriesActivity">
+
+    <LinearLayout style="@style/StandardLayout">
+
+        <LinearLayout
+            style="@style/ContentLayout"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                style="@style/ContentTitle"
+                android:text="@string/series_title" />
+
+            <TextView
+                style="@style/ContentSubtitle"
+                android:text="@string/series_subtitle" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/episode3"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="29th October - Episode 3" />
+
+        <TextView
+            android:id="@+id/episode2"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimary"
+            android:text="22nd October - Episode 2" />
+
+        <TextView
+            android:id="@+id/episode1"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="15th October - Episode 1" />
+
+        <LinearLayout style="@style/NotesLayout">
+
+            <TextView
+                style="@style/NotesTextView"
+                android:text="@string/series_notes" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
