@@ -1,1 +1,1 @@
-"# AndroidBasicsMusicalStructure" 
+# AndroidBasicsMusicalStructure
